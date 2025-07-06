@@ -11,23 +11,30 @@
   },
   "pluginOptions": {},
   "attributes": {
+    "username": {
+      "type": "string",
+      "maxLength": 20,
+      "required": true
+    },
+    "content": {
+      "type": "text",
+      "required": true
+    },
     "title": {
       "type": "string",
       "required": true
     },
-    "body": {
-      "type": "text",
-      "required": true
+    "fetchedAt": {
+      "type": "datetime"
     },
-    "image": {
-      "type": "media",
-      "multiple": true,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
+    "pubDate": {
+      "type": "datetime"
+    },
+    "link": {
+      "type": "string"
+    },
+    "filterBy": {
+      "type": "string"
     }
   }
 }
