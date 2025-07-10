@@ -16,10 +16,6 @@
       "maxLength": 20,
       "required": true
     },
-    "content": {
-      "type": "text",
-      "required": true
-    },
     "title": {
       "type": "string",
       "required": true
@@ -35,6 +31,9 @@
     },
     "filterBy": {
       "type": "string"
+    },
+    "content": {
+      "type": "blocks"
     }
   }
 }
